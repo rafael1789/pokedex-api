@@ -43,3 +43,19 @@ group :development, :test do
   gem 'spring'
 end
 
+gem "grape"
+gem "hashie_rails"
+gem 'grape-rabl'
+
+gem "devise", "~> 3.4.1"
+
+gem 'doorkeeper', '~> 1.4.0'
+gem 'grape-doorkeeper', '~> 0.0.2'
+
+# OAuth 2 Guard on Resource Server (API)
+gem "rack-oauth2"
+gem 'oauth2'
+
+gem 'grape-entity'
+
+gem 'activesupport-json_encoder'
