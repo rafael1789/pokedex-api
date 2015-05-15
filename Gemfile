@@ -43,6 +43,9 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'apipie-rails'
+gem 'rails_admin'
+
 gem "grape"
 gem "hashie_rails"
 gem 'grape-rabl'
